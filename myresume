@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadde Hemanth - Resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gadde Hemanth</h1>
+            <p><strong>Phone:</strong> 7680886783</p>
+            <p><strong>Email:</strong> <a href="mailto:hemanthgadde064@gmail.com">hemanthgadde064@gmail.com</a></p>
+            <p><strong>Address:</strong> Kodad, Telangana, India</p>
+        </header>
+
+        <hr>
+
+        <section>
+            <h2>Career Objective</h2>
+            <p>Aspiring AI & ML Engineer with a strong foundation in computer science and a passion for developing intelligent, data-driven solutions. Proficient in machine learning, deep learning, NLP, and big data analytics, with hands-on experience in Python, TensorFlow, and cloud computing. Seeking an opportunity to apply my analytical and problem-solving skills in a dynamic organization, contribute to cutting-edge AI research, and develop scalable, real-world applications that drive innovation and automation in technology-driven industries.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <!-- Education Details -->
+<div>
+    <h3 style="text-decoration: underline;">Education</h3>
+    <table border="1" cellspacing="0" cellpadding="8">
+        <thead>
+            <tr>
+                <th>Degree</th>
+                <th>Year</th>
+                <th>Institution</th>
+                <th>CGPA/Percentage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>B.Tech (AI & ML)</td>
+                <td>2022-2026</td>
+                <td>Anurag Engineering College, Kodad</td>
+                <td>CGPA: 8.8</td>
+            </tr>
+            <tr>
+                <td>Intermediate (MPC)</td>
+                <td>2020-2022</td>
+                <td>Sri Medha Jr. College, Kodada</td>
+                <td>Percentage: 91%</td>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td>2019-2020</td>
+                <td>Sri Chaitanya School, Kodada</td>
+                <td>Percentage: 100%</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> C, Java, Python</li>
+                <li><strong>Web Development:</strong> Frontend Development</li>
+                <li><strong>Database:</strong> MySQL</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Academic Projects</h2>
+            <h3>E-Restaurant Management System</h3>
+            <p><strong>Description:</strong> Developed an E-Restaurant management system to streamline online food ordering, table reservations, billing, and inventory management.</p>
+            <p>The system enhances restaurant efficiency by automating order processing and customer management.</p>
+            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
+            <h4>Key Features:</h4>
+            <ul>
+                <li>Online food ordering and digital menu management</li>
+                <li>Table reservation and booking system</li>
+                <li>Automated billing and payment processing</li>
+                <li>Inventory and kitchen stock management</li>
+                <li>Role-based access for customers, staff, and administrators</li>
+            </ul>
+            <p><strong>Role:</strong> Designed and developed the backend, integrated the database, and implemented secure user authentication.</p>
+            <p><strong>Outcome:</strong> Improved restaurant operations by reducing manual errors, enhancing customer experience, and optimizing order management.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Internships/Industrial Training</h2>
+            <h3>Web Developer Intern – Motion Cut Solutions</h3>
+            <p><strong>Duration:</strong> 1 Month (2024)</p>
+            <p>Worked on front-end components for client projects, enhancing web application performance and user experience.</p>
+
+            <h3>SWECHA-LMS</h3>
+            <p><strong>Duration:</strong> 1 Month (2024)</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Certifications & Workshops</h2>
+            <ul>
+                <li>Workshop on Drone Technology - 2024</li>
+                <li>Udemy certifications on Python, Front-End Development</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Soft Skills</h2>
+            <ul>
+                <li>Teamwork</li>
+                <li>Time Management</li>
+                <li>Problem Solving</li>
+                <li>Leadership</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Languages Known</h2>
+            <ul>
+                <li>Telugu</li>
+                <li>English</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Declaration</h2>
+            <p>I hereby declare that the above information is true and correct to the best of my knowledge.</p>
+            <p><strong>Date:</strong> 24/02/25</p>
+            <p><strong>Place:</strong> Kodad, Telangana</p>
+            <p><strong>Signature:</strong> G. Hemanth</p>
+        </section>
+    </div>
+</body>
+</html>
