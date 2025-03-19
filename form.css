@@ -1,0 +1,97 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Centering the form */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Form Styling */
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+/* Form Title */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-element, 
+input[type="date"], 
+input[type="number"], 
+input[type="email"], 
+input[type="password"], 
+select, 
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Radio and Checkbox Styling */
+#gender, .checkbox-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Buttons */
+.btns-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+}
