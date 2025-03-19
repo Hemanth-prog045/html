@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Hemanth\Desktop\FSD\CSS\form.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="main-container">
+        <form action="" class="form-container">
+            <h1>Registration Form</h1>
+            <div class="input-container">
+                <label for="text">Name :</label>
+                <input type="text" id="text" placeholder="Enter your name" class="input-element" required>
+            </div>
+            <div class="input-container">
+                <label for="password">Password :</label>
+                <input type="password" id="password" class="input-element" placeholder="Enter your password" required>
+            </div>    
+            <div class="input-container">
+                <label for="email">Email :
+                </label>
+                <input type="email" id="email" class="input-element" placeholder="Enter your email" required>
+            </div>
+           
+            <div class="input-container">
+                <label for="date">Date :</label>
+                <input type="date" id="date">
+            </div>
+            
+            <div class="input-container">
+                <label for="gender">Gender :</label>
+                <div id="gender">
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>  
+                    <input type="radio" id="other" name="gender">
+                    <label for="other">Other</label>
+                </div>    
+            </div>
+            <div class="input-container">
+                <label for="file">Upload file :</label>
+                <input type="file" id="file" required>
+            </div>
+            <div class="input-container">
+                <label for="num">Age :</label>
+                <input type="number" id="num"  min="18" max="60" required>
+            </div>
+            <div class="input-container">
+                <label for="exp">Years of Experience :</label>
+                <input type="range" id="exp">
+            </div>
+            <div class="input-container">
+                <label for="interest">Domain</label>
+                <select name="" id="interest">
+                    <option value="1">Web Development</option>
+                    <option value="2">Data science</option>
+                    <option value="3">Cyber security</option>
+                    <option value="4"> Machine Learning</option>
+                    <option value="5"> Artificial Intelligence</option>
+                </select>
+            </div>
+            <div class="input-container">
+                <label for="gender">Preferred Locations :</label>
+                <div id="gender">
+                    <input type="checkbox" id="male">
+                    <label for="male">Hyderabad</label>
+                    <input type="checkbox" id="female">
+                    <label for="female">Mumbai</label>  
+                    <input type="checkbox" id="other">
+                    <label for="other">Chennai</label>
+                    <input type="checkbox" id="other">
+                    <label for="other">Pune</label>
+                </div>    
+            </div>
+            <div class="input-container">
+                <label for="txtarea">Suggestions:</label>
+                <textarea name="" id="txtarea" rows="10" cols="69" placeholder="Enter your suggestions here"></textarea>
+            </div>
+            <div class="btns-container">
+                <button type="submit" class="btn">Submit</button>
+                <button type="reset" class="btn">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
